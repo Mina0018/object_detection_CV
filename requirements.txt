@@ -1,9 +1,2 @@
-cd render-deployment
-
-# Check if file exists
-ls requirements.txt
-
-# If it exists, push to GitHub
-git add requirements.txt
-git commit -m "Add requirements.txt"
-git push
+Flask==3.0.0
+gunicorn==21.2.0
